@@ -12,7 +12,7 @@ training_y = []
 testing_X = []
 testing_y = []
 
-# parameters = {'C': [0.3, 1, 10]}
+parameters = {'C': [0.3, 1, 3, 10]}
 
 with open('trainging_feature_vector_103950.csv', 'rb') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
